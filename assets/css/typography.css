@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Clifton-Italic';
+    src: url('../fonts/Clifton-Italic.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'Freight';
+    src: url('../fonts/Freight Big W01 Light Italic.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'CharonTrial';
+    src: url('../fonts/CharonTrial-Regular.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'IBM-Plex';
+    src: url('../fonts/IBMPlexMono-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Knif-Italic';
+    src: url('../fonts/aa_knif-mono_italic-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Knif';
+    src: url('../fonts/aa_knif-mono-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'GT Cinetype';
+    src: url('../fonts/GT-Cinetype-Regular.woff') format('woff'),
+        url('../fonts/GT-Cinetype-Regular.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Freight';
+    font-weight: 300;
+}
+
+p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+button {
+    font-size: 12px;
+}
+
+nav button {
+    font-size: 16px;
+}
+
+.language-toggle {
+    font-size: 12px;
+}
+
+.introduction p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.animation p {
+  font-family: 'Freight';
+    font-size: 40px;
+    line-height: 80px;
+    word-spacing: px;
+}
+
+
+
+.titre1 p {
+  font-family: 'Freight';
+    font-size: 110px;
+    line-height: 120px;
+    word-spacing: 20px;
+}
+
+.details p {
+  font-family: 'Freight';
+    font-size: 30px;
+    line-height: 33px;
+}
+
+.introduction p {
+  font-family: 'Knif';
+    font-size: 15px;
+    line-height: 20px;
+
+}
+
+.section-body-copy p {
+  font-family: 'Knif';
+    font-size: 14px;
+    line-height: 18px;
+
+}
+
+.point,
+.email,
+.links {
+    font-size: 16px;
+}
+
+@media (min-width: 1025px) {
+    body {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    section {
+        font-size: 12px;
+    }
+
+    .section-header {
+        font-size: 17px;
+    }
+    .section-header .number {
+        font-weight: bold;
+    }
+
+    #third .introduction p,
+    #fifth .introduction p {
+
+    }
+
+    .point-header {
+        font-size: 24px;
+    }
+
+    .email {
+        font-size: 24px;
+    }
+
+    .links {
+        font-size: 20px;
+    }
+
+    .point-number,
+    .point-title {
+        font-size: 24px;
+    }
+
+    .point-content li {
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
